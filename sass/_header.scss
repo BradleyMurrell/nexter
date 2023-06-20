@@ -1,9 +1,12 @@
 .header {
     background-color: $color_grey-dark-1;
     grid-column: full-start / col-end 6;
+    background-image: linear-gradient(rgba($color_secondary, .93), rgba($color_secondary, .93)), url(../img/hero.jpeg);
+    background-size: cover;
+    background-position: center;
 
     &__logo {
-
+        height: 3rem;
     }
 
     &__seenon-text {
@@ -13,7 +16,7 @@
     &__seenon-logo {
 
         img {
-            
+            height: 2.5rem;
         }
     }
 }
